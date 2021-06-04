@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="144dp"
+        android:text="Save data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Read data"
+        app:layout_constraintStart_toStartOf="@+id/btnSaveData"
+        app:layout_constraintTop_toBottomOf="@+id/btnSaveData" />
+
+    <Button
+        android:id="@+id/btnRemoveByKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Remove by key"
+        app:layout_constraintStart_toStartOf="@+id/btnReadData"
+        app:layout_constraintTop_toBottomOf="@+id/btnReadData" />
+
+    <Button
+        android:id="@+id/btnRemoveAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="44dp"
+        android:text="Remove all"
+        app:layout_constraintStart_toStartOf="@+id/btnRemoveByKey"
+        app:layout_constraintTop_toBottomOf="@+id/btnRemoveByKey" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

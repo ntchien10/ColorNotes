@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.colornotes.ui.notes.NoteFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_note"/>
+
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.example.colornotes.ui.calendar.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_archive"
+        android:name="com.example.colornotes.ui.archive.ArchiveFragment"
+        android:label="Archive"
+        tools:layout="@layout/fragment_archive" />
+    <fragment
+        android:id="@+id/nav_trash_can"
+        android:name="com.example.colornotes.ui.trash_can.TrashCanFragment"
+        android:label="TrashCan"
+        tools:layout="@layout/fragment_trash_can"/>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.colornotes.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search"/>
+    <fragment
+        android:id="@+id/nav_theme"
+        android:name="com.example.colornotes.ui.theme.ThemeFragment"
+        android:label="Theme"
+        tools:layout="@layout/fragment_theme"/>
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.colornotes.ui.setting.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting"/>
+    <fragment
+        android:id="@+id/nav_tutorial"
+        android:name="com.example.colornotes.ui.tutorial.TutorialFragment"
+        android:label="Tutorial"
+        tools:layout="@layout/fragment_tutorial"/>
+    <fragment
+        android:id="@+id/like_facebook"
+        android:name="com.example.colornotes.ui.like_facebook.LikeFaceBookFragment"
+        android:label="Like us on Facebook"
+        tools:layout="@layout/fragment_like_facebook"/>
+
+
+</navigation>

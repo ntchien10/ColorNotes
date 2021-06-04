@@ -1,0 +1,2 @@
+rootProject.name = "call_API_example"
+include ':app'

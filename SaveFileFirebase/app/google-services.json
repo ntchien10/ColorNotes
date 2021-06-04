@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188046147784",
+    "project_id": "savefile-1e505",
+    "storage_bucket": "savefile-1e505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188046147784:android:f53ea985794ddfcaf765fd",
+        "android_client_info": {
+          "package_name": "com.example.savefilefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188046147784-1prr7cc9mkniqtl57ts2isgrokr8q8t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDveUo1f96DWVzgAAvs_u9PVYDbfAhsAVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188046147784-1prr7cc9mkniqtl57ts2isgrokr8q8t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

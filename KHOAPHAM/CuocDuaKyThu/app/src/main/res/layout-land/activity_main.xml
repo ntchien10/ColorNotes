@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkboxThree"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxTwo"
+        android:layout_above="@id/checkboxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxOne"
+        android:layout_above="@id/checkboxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:id="@+id/seebarThree"
+        android:layout_toRightOf="@id/checkboxThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <SeekBar
+        android:id="@+id/seebarTwo"
+        android:layout_above="@id/checkboxThree"
+        android:layout_toRightOf="@id/checkboxTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/seebarOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seebarTwo"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginBottom="53dp"
+        android:layout_toRightOf="@id/checkboxOne" />
+
+</RelativeLayout>

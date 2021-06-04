@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="99dp"
+        android:layout_height="83dp"
+        android:src="@drawable/android">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Thế Chiến"
+        android:textColor="#FF00"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/imgView"
+    />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phú Diễn - Bắc Từ Liêm"
+        android:textColor="#FF00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imgView"
+        android:layout_below="@id/textView"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView"
+
+        />
+</RelativeLayout>
+
+
+
